@@ -42,7 +42,7 @@ public class Ricerca {
 			this.soluzione.add(parziale);
 		}
 		
-		//caso normale/generale --> provare ad aggiungere alla soluzione parziale tutti i caratteri presenti tra i disponibili
+		//caso normale/generale -> provare ad aggiungere alla soluzione parziale tutti i caratteri presenti tra i disponibili
 		for(Character ch: disponibili) { //non posso modificare la lista disponibili mentre la stiamo iterando
 			String tentativo = parziale + ch;
 			
